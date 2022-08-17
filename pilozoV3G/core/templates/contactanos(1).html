@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body background="https://pbs.twimg.com/media/E9rjk3TXMAYvyNY.jpg:large">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href=" {% static 'core/css/estilos.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/menuUniverso.css' %}">
+
+<nav class="menuCSS3">
+		<ul>
+			<li><a href="{% url 'core' %}">Inicio</a></li>
+
+			<li><a href="{% url 'nosotros' %}">Quienes Somos</a></li>
+			<li><a href="{% url 'productos' %}">Productos</a>
+			<li><a href="{% url 'contactanos' %}">Contactanos</a>
+
+
+		 </ul>
+	     </li>
+	</nav>
+
+</head>
+<body>
+<div class="cartera">
+ <span style="font-family: Lobster, italic;font-size: 40px;">ENCUENTRA MAS SOBRE NOSOTROS</span>
+ <div class="tarjeta tfacebook">
+  <a class="fa-facebook" href="ENLACE_CTA_FACEBOOK">Facebook</a>
+ </div>
+ <div class="tarjeta tgoogle">
+  <a class="fa-google-plus" href="ENLACE_CTA_GOOGLE+">Google+</a>
+ </div>
+ <div class="tarjeta ttwitter">
+  <a class="fa-twitter" href="ENLACE_CTA_TWITTER">Twitter</a>
+ </div>
+ <div class="tarjeta tlinkedin">
+  <a class="fa-linkedin" href="ENLACE_CTA_LINKEDIN">Linkedin</a>
+ </div>
+ <div class="tarjeta tpinterest">
+  <a class="fa-pinterest" href="ENLACE_CTA_PINTEREST">Pinterest</a>
+ </div>
+ <div class="tarjeta tinstagram">
+  <a class="fa-instagram" href="ENLACE_CTA_INSTAGRAM">Instagram</a>
+ </div>
+</div>
+</body>
+</html>
